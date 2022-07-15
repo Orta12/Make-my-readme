@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="Image/book.png" type="image/x-icon">
+        <link rel="stylesheet" href="index.css">
+        <title>Readme.md</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Blaka&family=Charis+SIL&family=Dosis:wght@200&family=Josefin+Sans:wght@300;400&family=Montserrat:ital,wght@0,200;1,200&family=Open+Sans:wght@300;400;500&family=Patrick+Hand&family=Roboto+Condensed&family=Roboto+Mono:wght@300;400&family=Ubuntu+Mono&display=swap"
+            rel="stylesheet">
+
+    </head>
+
+
+    <body>
+        <h1 class="heading1">
+            Readme.md
+        </h1>
+
+        <p class="para1">
+            In simple words, we can describe a README file as a guide that gives users a detailed description of a
+            project you have worked on.</p>
+        </p>
+
+        <h1 class="heading2">
+            Editor
+        </h1>
+
+        <div id="main1" class="editeor">
+
+            <input type="text" value="# project name" id="project_name" oninput="projectname()"><br><br>
+            <textarea type="text" id="description"
+                oninput="description()">description tell something about your project</textarea><br><br>
+
+            <input type="text" value="## Installation" id="installation" oninput="installation()"><br><br>
+            <textarea type="text" id="install"
+                oninput="install()">Use npm package manager to install my project.</textarea><br><br>
+            <textarea type="text" id="link" oninput="link()" style="display:inline-block;">```Link Of My Project```</textarea> 
+
+            <input type="text" placeholder="link" id="namedlink" oninput="linkuap()"> <br><br>
+
+            <input type="text" value="## Usage" id="usage" oninput="usage()"><br><br>
+            <textarea type="text" id="describe" oninput="describe()">``` python describe how to use it ```
+            </textarea><br><br>
+
+            <input type="text" value="## Contributing" id="contributing" oninput="Contributing()"><br><br>
+            <textarea type="text" id="contributing_des" oninput="contributing_des()">Pull Requests Are Welcome. For Major Changes, Please Open An Issue First To Discuss What You Would Like To Change.
+            </textarea><br><br>
+
+            <input type="text" value="Please make sure to update tests as appropriate" id="unknow"><br><br>
+            <input type="text" value="## License" id="License"><br><br>
+
+            <p>
+                [MIT](https://choosealicense.com/licenses/mit/)
+            </p>
+
+        </div>
+
+        <div class="previwe">
+
+            <h1 id="project_">project name</h1>
+            <p id="description_">description tell something about your project</p>
+
+            <h2 id="installation_">Installation</h2>
+            <p id="package_">Use npm package manager to install my project.</p>
+
+            <p id="link_">Link Of My Project </p>
+            <a href="Http://127.0.0.1:3002/Index.Html" rel="nofollow" id="linkmy" target="_blank">Project name</a>
+
+            <h2 id="Usage_">Usage</h2>
+            <p id="usage_">describe how to use it</p>
+
+            <h2 id="contributing_">Contributing</h2>
+            <p id="contributing_des_">Pull Requests Are Welcome. For Major Changes, Please Open An Issue First To
+                Discuss
+                What You Would Like To Change.</p>
+
+            <p class="unknow_pare_">Please make sure to update tests as appropriate</p>
+
+            <h2 id="License_">License</h2>
+            <a id="mit" href="https://choosealicense.com/licenses/mit/">MIT</a>
+
+        </div>
+
+
+        <script src="index.js"></script>
+    </body>
+
+</html>
