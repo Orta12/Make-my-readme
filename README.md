@@ -23,7 +23,7 @@ Http://127.0.0.1:3002/Index.Html#
 ## Contributing
 Pull Requests Are Welcome. For Major Changes, Please Open An Issue First To Discuss What You Would Like To Change.
             
-Please Make Sure To Update Tests As Appropriate
+Check our new realese
 
 ## License
 [MIT](Https://Choosealicense.Com/Licenses/Mit/)
