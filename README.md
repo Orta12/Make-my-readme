@@ -4,9 +4,9 @@
 In Simple Words, We Can Describe A README File As A Guide That Gives Users A Detailed Description Of A Project You Have Worked On
 
 ## Installation
-```Link Of My Project```
+```Wanna try it```
  
-https://makemyreadme.netlify.app
+https://makemyreadme.netlify.app/
 
 ## Usage
 
